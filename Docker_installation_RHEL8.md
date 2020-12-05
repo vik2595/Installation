@@ -14,6 +14,22 @@
 
 `sudo systemctl start docker`
 
+## Verify Docker installation by 
+
+`docker version`
+
+## Add current user to Docker group to run as non-root user
+
+`sudo usermod -aG docker $USER`
+
+## To change current group to Docker group
+
+`sudo usermod -aG docker $USER`
+
+## Verify changes by 
+
+`docker ps`
+
 ## Install Docker-compose
 
 `curl -L "https://github.com/docker/compose/releases/download/1.23.2/docker-compose-$(uname -s)-$(uname -m)" -o docker-compose`
