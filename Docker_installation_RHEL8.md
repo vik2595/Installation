@@ -24,7 +24,7 @@
 
 ## To change current group to Docker group
 
-`sudo usermod -aG docker $USER`
+`newgrp docker `
 
 ## Verify changes by 
 
